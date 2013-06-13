@@ -1,0 +1,12 @@
+<project name="Test" default="test" basedir=".">
+    <description>
+        simple example build file
+    </description>
+
+  <target name="test">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <echo message="building..." />    
+  </target>
+
+</project>
